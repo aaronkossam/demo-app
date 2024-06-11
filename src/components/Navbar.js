@@ -1,7 +1,7 @@
 function Navbar() {
   return (
     <div>
-      <section className="flex flex-grow gap-8 pt-8">
+      <section className="flex flex-grow gap-8 pt-8  ">
         <div>
           <img
             src="/asset/photo_1_2024-06-01_00-35-37.jpg"
@@ -24,19 +24,25 @@ function Navbar() {
         </div>
       </section>
 
-      <section className=" pt-16  ">
-        <h1 className=" text-4xl font-bold">
-          Discover The <span className=" text-yellow-500 ">Perfect</span>{" "}
-          <br></br>
-          Gift For Every Occasion
-        </h1>
-        <p className=" pt-6">
-          You could reach up to 21K more people daily when you spend $42 to{" "}
-          <br></br>
-          boost this postYou could reach up to 21K more people daily <br></br>
-          when you spend $42 to boost this post when you <br></br>
-          You could reach up to 21K more people daily <br></br>
-        </p>
+      <section className=" pt-16 flex  flex-row gap-30 pl-10">
+        <div className=" pt-20 ">
+          <h1 className="   text-3xl font-bold">
+            Discover The <span className=" text-yellow-500 ">Perfect</span>{" "}
+            <br></br>
+            Gift For Every Occasion
+          </h1>
+
+          <p className="  pt-6">
+            You could reach up to 21K more people daily when you s people daily{" "}
+            <br></br>
+            when you spend when you spend $42 to boost this post when you You
+            could reach up to 21K more
+          </p>
+        </div>
+
+        <div className=" pl-20">
+          <img src="/asset/bacIm.png" alt="" className="  min-h-min  -mt-10 " />
+        </div>
       </section>
     </div>
   );

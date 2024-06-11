@@ -4,7 +4,7 @@ import Main from "./components/Main";
 
 const App = () => {
   return (
-    <div className="pl-8 pr-8">
+    <div>
       <Navbar />
       <Main />
     </div>
